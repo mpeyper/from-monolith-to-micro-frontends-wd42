@@ -1,0 +1,19 @@
+{
+  "name": "from-monolith-to-micro-frontend-wd42",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "prismjs": "^1.8.1",
+    "prismjs-tomorrow-theme": "0.0.1",
+    "react": "^16.2.0",
+    "react-dom": "^16.2.0",
+    "react-icons": "^2.2.5",
+    "spectacle-scripts": "2.0.0"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test --env=jsdom",
+    "eject": "react-scripts eject"
+  }
+}
