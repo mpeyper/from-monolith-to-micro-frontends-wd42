@@ -7,9 +7,9 @@ import React from 'react'
 import { Deck } from 'spectacle'
 import createTheme from 'spectacle/lib/themes/default'
 
-import Title from './slides/00-title'
-import LegacySite from './slides/01-legacy-site'
-import MemberSite from './slides/02-member-site'
+import Introduction from './slides/introduction'
+import LegacySite from './slides/legacy-site'
+import MemberSite from './slides/member-site'
 
 const theme = createTheme(
   {
@@ -27,8 +27,8 @@ const theme = createTheme(
 export default class Presentation extends React.Component {
   render() {
     return (
-      <Deck transition={['zoom', 'slide']} transitionDuration={500} theme={theme}>
-        {Title}
+      <Deck transition={['fade']} theme={theme}>
+        {Introduction}
         {LegacySite}
         {MemberSite}
       </Deck>

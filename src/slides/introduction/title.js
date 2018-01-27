@@ -1,12 +1,12 @@
 import React from 'react'
 import { Slide, Heading, Image, Text, Link } from 'spectacle'
-import microFrontendsImage from '../images/micro-frontends.png'
 import Twitter from 'react-icons/lib/fa/twitter'
 import Github from 'react-icons/lib/fa/github'
 import Envelope from 'react-icons/lib/fa/envelope'
+import microFrontendsImage from './images/micro-frontends.png'
 
 export default (
-  <Slide transition={['fade']} bgColor="primary">
+  <Slide bgColor="primary">
     <Heading fit textFont="primary" textColor="secondary">
       From Monolith to Micro-Frontends
     </Heading>
