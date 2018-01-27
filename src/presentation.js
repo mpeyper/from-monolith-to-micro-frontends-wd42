@@ -11,15 +11,18 @@ import Title from './slides/00-title'
 import LegacySite from './slides/01-legacy-site'
 import MemberSite from './slides/02-member-site'
 
-const theme = createTheme({
-  primary: "#2D2D2D",
-  secondary: "#FFFFFF",
-  tertiary: "#764EB8",
-  quartenary: "#EE8D51"
-}, {
-  primary: { name: "Roboto", googleFont: true, styles: [ "400", "700i" ] },
-  secondary: { name: "Roboto Mono", googleFont: true, styles: [ "400", "700i" ] }
-})
+const theme = createTheme(
+  {
+    primary: '#2D2D2D',
+    secondary: '#FFFFFF',
+    tertiary: '#764EB8',
+    quartenary: '#EE8D51'
+  },
+  {
+    primary: { name: 'Roboto', googleFont: true, styles: ['400', '700i'] },
+    secondary: { name: 'Roboto Mono', googleFont: true, styles: ['400', '700i'] }
+  }
+)
 
 export default class Presentation extends React.Component {
   render() {
