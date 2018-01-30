@@ -9,6 +9,7 @@ export default (
     </List>
     <Notes>
       Angular 1 Monolith
+      Public Release in Sep 2015
     </Notes>
   </Slide>
 )

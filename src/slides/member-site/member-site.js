@@ -3,7 +3,7 @@ import { Slide, Heading } from 'spectacle'
 
 export default (
   <Slide>
-    <Heading fit textFont="primary" textColor="secondary">
+    <Heading textFont="primary" textColor="secondary">
       The New Site
     </Heading>
   </Slide>

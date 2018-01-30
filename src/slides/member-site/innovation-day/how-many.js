@@ -1,15 +1,14 @@
 import React from 'react'
-import { Slide, Heading, Image, Notes } from 'spectacle'
+import { Slide, Image, Notes } from 'spectacle'
 import imageSrc from '../images/innovation-day.png'
 
 export default (
   <Slide>
-    <Heading fit textFont="primary" textColor="secondary">
-      How many frontends?
-    </Heading>
     <Image src={imageSrc} />
     <Notes>
+      How many frontends?
       2015
+      Innovation Day
       Team in Melbourne
       Leveraged exisiting microservice APIs
     </Notes>

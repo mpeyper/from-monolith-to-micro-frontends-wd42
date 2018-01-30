@@ -3,12 +3,13 @@ import { Slide, Heading, List, ListItem } from 'spectacle'
 
 export default (
   <Slide>
-    <Heading fit textFont="primary" textColor="secondary">
+    <Heading textFont="primary" textColor="secondary">
       Complications
     </Heading>
     <List ordered textFont="secondary" textColor="quartenary">
       <ListItem>Theming</ListItem>
       <ListItem>Analytics</ListItem>
+      <ListItem>Action Cross-Talk</ListItem>
       <ListItem>Finding State</ListItem>
     </List>
   </Slide>

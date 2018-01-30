@@ -1,12 +1,12 @@
 import React from 'react'
-import { Slide, Heading, Image } from 'spectacle'
+import { Slide, Image, Notes } from 'spectacle'
 import imageSrc from '../images/investments.png'
 
 export default (
   <Slide>
-    <Heading textFont="primary" textColor="secondary">
-      The Result
-    </Heading>
     <Image src={imageSrc} />
+    <Notes>
+      The result
+    </Notes>
   </Slide>
 )
