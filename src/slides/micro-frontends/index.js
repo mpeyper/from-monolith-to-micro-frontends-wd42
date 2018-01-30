@@ -1,5 +1,8 @@
 import React from 'react'
 import FirstMicroFrontend from './first-micro-frontend'
+import StandingInstructions from './first-micro-frontend/standing-instructions'
+import OldInvestments from './first-micro-frontend/old-investments'
+import Investments from './first-micro-frontend/investments'
 import Complications from './complications'
 import Theming from './theming'
 import Analytics from './analytics'
@@ -11,6 +14,9 @@ import ReduxSubspace from './redux-subspace'
 export default (
   <div hasSlideChildren>
     {FirstMicroFrontend}
+    {StandingInstructions}
+    {OldInvestments}
+    {Investments}
     {Complications}
     {Theming}
     {Analytics}
