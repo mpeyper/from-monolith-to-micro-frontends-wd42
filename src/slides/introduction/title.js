@@ -3,7 +3,7 @@ import { Slide, Heading, Image, Text, Link } from 'spectacle'
 import Twitter from 'react-icons/lib/fa/twitter'
 import Github from 'react-icons/lib/fa/github'
 import Envelope from 'react-icons/lib/fa/envelope'
-import microFrontendsImage from './images/micro-frontends-colourful.png'
+import microFrontendsImage from './images/micro-frontends.png'
 
 export default (
   <Slide bgColor="primary">
