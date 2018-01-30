@@ -10,6 +10,12 @@ import createTheme from 'spectacle/lib/themes/default'
 import Introduction from './slides/introduction'
 import LegacySite from './slides/legacy-site'
 import MemberSite from './slides/member-site'
+import MicroFrontends from './slides/micro-frontends'
+import AdviserSite from './slides/adviser-site'
+import CurrentSites from './slides/current-sites'
+import ExternalArtifacts from './slides/external-artifacts'
+import ClientSite from './slides/client-site'
+import WrapUp from './slides/wrap-up'
 
 const theme = createTheme(
   {
@@ -31,6 +37,12 @@ export default class Presentation extends React.Component {
         {Introduction}
         {LegacySite}
         {MemberSite}
+        {MicroFrontends}
+        {AdviserSite}
+        {CurrentSites}
+        {ExternalArtifacts}
+        {ClientSite}
+        {WrapUp}
       </Deck>
     )
   }

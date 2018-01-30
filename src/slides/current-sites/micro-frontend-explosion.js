@@ -4,7 +4,7 @@ import { Slide, Heading } from 'spectacle'
 export default (
   <Slide>
     <Heading fit textFont="primary" textColor="secondary">
-      The New Site
+      Micro-Frontend Explosion
     </Heading>
   </Slide>
 )

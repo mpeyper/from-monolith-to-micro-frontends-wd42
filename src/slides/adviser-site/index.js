@@ -1,11 +1,11 @@
 import React from 'react'
-import LegacySite from './legacy-site'
+import AdviserSite from './adviser-site'
 import HowMany from './how-many'
 import Answers from './answers'
 
 export default (
   <div hasSlideChildren>
-    {LegacySite}
+    {AdviserSite}
     {HowMany}
     {Answers}
   </div>

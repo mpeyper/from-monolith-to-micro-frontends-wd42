@@ -4,13 +4,12 @@ import { Slide, List, ListItem, Notes } from 'spectacle'
 export default (
   <Slide bgColor="primary">
     <List textFont="secondary" textColor="quartenary">
-      <ListItem>1 frontend</ListItem>
-      <ListItem>1 development team</ListItem>
+      <ListItem>24 frontends</ListItem>
+      <ListItem>6 development teams</ListItem>
     </List>
     <Notes>
-      <List>
-        <ListItem>Spring MVC</ListItem>
-      </List>
+      Angular 1 Parent App
+      React/Redux Micro-Frontends
     </Notes>
   </Slide>
 )
