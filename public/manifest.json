@@ -1,6 +1,6 @@
 {
-  "short_name": "React App",
-  "name": "Create React App Sample",
+  "short_name": "Micro-Frontends",
+  "name": "From Monolith to Micro-Fronteneds - Wed Developer 42 Presentation",
   "icons": [
     {
       "src": "favicon.ico",

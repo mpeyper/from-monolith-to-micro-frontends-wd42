@@ -2,6 +2,7 @@
   "name": "from-monolith-to-micro-frontends-wd42",
   "version": "0.1.0",
   "private": true,
+  "homepage": "https://mpeyper.github.io/from-monolith-to-micro-frontends-wd42",
   "dependencies": {
     "prismjs": "^1.8.1",
     "prismjs-tomorrow-theme": "0.0.1",
