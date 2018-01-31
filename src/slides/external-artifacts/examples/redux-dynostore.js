@@ -1,17 +1,17 @@
 export const parent = `
 import { createStore, compose } from 'redux'
 import { applyMiddleware } from 'redux-subspace'
+import thunk from 'redux-thunk'
+import createSagaMiddleware from 'redux-subspace-saga'
 import dynostore, { dynamicReducers }  from '@ioof/redux-dynostore'
 import { dynamicSagas } from '@ioof/redux-dynostore-saga'
+import reducer from './reducer'
 
 const sagaMiddleware = createSagaMiddleware()
 
 const store = createStore(reducer, compose(
-  applyMiddleware(sagaMiddleware),
-  dynostore(
-    dynamicReducers(),
-    dynamicSagas(sagaMiddleware)
-  )
+  applyMiddleware(thunk, sagaMiddleware),
+  dynostore(dynamicReducers(), dynamicSagas(sagaMiddleware))
 ))
 `.trim()
 
