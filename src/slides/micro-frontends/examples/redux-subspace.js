@@ -31,7 +31,10 @@ import { SubspaceProvider } from 'react-redux-subspace'
 import ExampleMicroFrontend from '@ioof/example-micro-frontend'
 
 const MicroFrontendWrapper = ({ product }) => (
-  <SubspaceProvider mapState={(state) => state.subApps.exampleMicroFrontend} namespace='example'>
+  <SubspaceProvider
+    mapState={(state) => state.subApps.exampleMicroFrontend}
+    namespace='example'
+  >
     <ExampleMicroFrontend />
   </SubspaceProvider>
 )
