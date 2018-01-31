@@ -10,7 +10,7 @@ export default (
     <Heading fit textFont="primary" textColor="secondary">
       From Monolith to Micro-Frontends
     </Heading>
-    <Image src={microFrontendsImage} width="30%" />
+    <Image src={microFrontendsImage} width="40%" padding="5% 0 5% 0" />
     <Text textAlign="right">
       <Link textFont="secondary" textColor="quartenary" href="https://twitter.com/michaelpeyper" target="_blank">
         @michaelpeyper

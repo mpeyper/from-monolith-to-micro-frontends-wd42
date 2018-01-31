@@ -13,6 +13,11 @@ import ReduxTraversal3 from './finding-state/redux-traversal-3'
 import ReduxTraversal4 from './finding-state/redux-traversal-4'
 import TraversalProblem from './finding-state/traversal-problem'
 import ReduxSubspace from './finding-state/redux-subspace'
+import ReduxSubspace1 from './finding-state/redux-subspace-1'
+import ReduxSubspace2 from './finding-state/redux-subspace-2'
+import ReduxSubspace3 from './finding-state/redux-subspace-3'
+import ReduxSubspace4 from './finding-state/redux-subspace-4'
+import ReduxSubspace5 from './finding-state/redux-subspace-5'
 import MicroFrontendExplosion from './micro-frontend-explosion'
 
 export default (
@@ -31,6 +36,11 @@ export default (
     {ReduxTraversal4}
     {TraversalProblem}
     {ReduxSubspace}
+    {ReduxSubspace1}
+    {ReduxSubspace2}
+    {ReduxSubspace3}
+    {ReduxSubspace4}
+    {ReduxSubspace5}
     {MicroFrontendExplosion}
   </div>
 )
