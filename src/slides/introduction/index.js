@@ -1,3 +1,10 @@
+import React from 'react'
 import Title from './title'
+import WhatIsIt from './what-is-it'
 
-export default Title
+export default (
+  <div hasSlideChildren>
+    {Title}
+    {WhatIsIt}
+  </div>
+)
