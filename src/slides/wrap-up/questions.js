@@ -1,10 +1,13 @@
 import React from 'react'
-import { Slide, Heading } from 'spectacle'
+import { Slide, Heading, Notes } from 'spectacle'
 
 export default (
   <Slide>
-    <Heading fit textFont="primary" textColor="secondary">
+    <Heading textFont="primary" textColor="secondary">
       Questions?
     </Heading>
+    <Notes>
+      OMG, you made it!
+    </Notes>
   </Slide>
 )

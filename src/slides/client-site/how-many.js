@@ -6,7 +6,8 @@ export default (
   <Slide>
     <Image src={imageSrc} />
     <Notes>
-      How many frontends?
+      How many frontends?<br />
+      Release end of February
     </Notes>
   </Slide>
 )

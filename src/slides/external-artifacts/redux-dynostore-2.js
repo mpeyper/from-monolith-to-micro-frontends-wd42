@@ -1,5 +1,5 @@
 import React from 'react'
-import { Slide, Heading, CodePane } from 'spectacle'
+import { Slide, Heading, CodePane, Notes } from 'spectacle'
 import { child } from './examples/redux-dynostore'
 
 export default (
@@ -8,5 +8,9 @@ export default (
       redux-dynostore
     </Heading>
     <CodePane textSize={18} lang="js" source={child} />
+    <Notes>
+      Parent only needs to mount React Component<br />
+      Everything is automatic<br />
+    </Notes>
   </Slide>
 )

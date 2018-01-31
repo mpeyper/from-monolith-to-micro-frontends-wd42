@@ -1,5 +1,5 @@
 import React from 'react'
-import { Slide, Heading, Appear, Text, CodePane } from 'spectacle'
+import { Slide, Heading, Appear, Text, CodePane, Notes } from 'spectacle'
 import { problem } from '../examples/redux-traversal'
 
 export default (
@@ -15,5 +15,10 @@ export default (
         <CodePane textSize={18} lang="js" source={problem} />
       </div>
     </Appear>
+    <Notes>
+      Parent app doesn't know about it to set up a traversal key<br />
+      Can't hard coding it makes refacting intermediate levels difficult<br />
+      Nested child can't traverse through parent as it might be different<br />
+    </Notes>
   </Slide>
 )

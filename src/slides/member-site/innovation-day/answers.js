@@ -8,8 +8,8 @@ export default (
       <ListItem>1 development team</ListItem>
     </List>
     <Notes>
-      Angular 1 Monolith
-      Public Release in Sep 2015
+      Angular 1 Monolith<br />
+      Public Release in Sep 2015<br />
     </Notes>
   </Slide>
 )

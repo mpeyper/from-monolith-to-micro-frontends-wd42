@@ -6,9 +6,9 @@ export default (
   <Slide>
     <Image src={imageSrc} />
     <Notes>
-      How many frontends?
-      Started Sep 2015
-      Public Release Nov 2016
+      How many frontends?<br />
+      Started Sep 2015<br />
+      Public Release Nov 2016<br />
     </Notes>
   </Slide>
 )

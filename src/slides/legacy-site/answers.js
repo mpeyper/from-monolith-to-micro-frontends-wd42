@@ -8,7 +8,7 @@ export default (
       <ListItem>1 development team</ListItem>
     </List>
     <Notes>
-      Spring MVC Monolith
+      Spring MVC Monolith<br />
     </Notes>
   </Slide>
 )

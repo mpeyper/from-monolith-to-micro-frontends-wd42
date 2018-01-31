@@ -18,6 +18,7 @@ export default connect(mapStateToProps)(ExampleMicroFrontend)
 
 export const reducer = `
 import { SET_MY_VALUE } from './actions'
+
 const initialValue = {
   myValue: 42
 }
@@ -34,7 +35,7 @@ export exampleReducer = (state = initialValue, action) => {
 export const store = `
 import { createStore, combineReducers } from 'redux'
 import { exampleReducer } from '@ioof/example-micro-frontend'
-import { traversal, account } from './reducers
+import { traversal, account } from './reducers'
 
 const reducer = combineReducers({
   traversal,
@@ -51,7 +52,7 @@ export const state = `
 {
   traversal: {
     [ACCOUNT_ID]: 'member.accountId'
-    [EXAMPLE_ROOT]: 'subApps.exampleMicroFrontend
+    [EXAMPLE_ROOT]: 'subApps.exampleMicroFrontend'
   },
   member: {
     accountId = 'WDV12345678'
@@ -66,6 +67,8 @@ export const state = `
 
 export const problem = `
 const exampleState = traverse(state, EXAMPLE_ROOT)
+
+const nestedChildState = path.to.EXAMPLE_ROOT.traverse(state, NESTED_CHILD_ROOT)
 
 const nestedChildState = traverse(state, EXAMPLE_ROOT).path.to.NESTED_CHILD_ROOT
 `.trim()

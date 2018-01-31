@@ -8,8 +8,8 @@ export default (
       <ListItem>5 development teams</ListItem>
     </List>
     <Notes>
-      React/Redux Parent App
-      React/Redux Micro-Frontends
+      React/Redux Parent App<br />
+      React/Redux Micro-Frontends<br />
     </Notes>
   </Slide>
 )

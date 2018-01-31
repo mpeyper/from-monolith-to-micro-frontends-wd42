@@ -7,9 +7,8 @@ export default (
       Benefits
     </Heading>
     <List ordered textFont="secondary" textColor="quartenary">
-      <ListItem>Team Independence</ListItem>
-      <ListItem>Central Configuration</ListItem>
-      <ListItem>Experimentation</ListItem>
+      <ListItem>Team independence</ListItem>
+      <ListItem>Central configuration</ListItem>
     </List>
   </Slide>
 )

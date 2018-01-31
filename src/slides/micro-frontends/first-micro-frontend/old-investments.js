@@ -6,7 +6,7 @@ export default (
   <Slide>
     <Image src={imageSrc} />
     <Notes>
-      The problem
+      The problem<br />
     </Notes>
   </Slide>
 )

@@ -12,7 +12,8 @@ export default connect(mapStateToProps)(ExampleMicroFrontend)
 `.trim()
 
 export const reducer = `
-import { SET_MY_VALUE } from './actions'
+const SET_MY_VALUE = 'SET_MY_VALUE' // action constant
+
 const initialValue = {
   myValue: 42
 }
@@ -30,7 +31,7 @@ export const parent = `
 import { SubspaceProvider } from 'react-redux-subspace'
 import ExampleMicroFrontend from '@ioof/example-micro-frontend'
 
-const MicroFrontendWrapper = ({ product }) => (
+const MicroFrontendWrapper = () => (
   <SubspaceProvider
     mapState={(state) => state.subApps.exampleMicroFrontend}
     namespace='example'
@@ -45,7 +46,7 @@ import { createStore, combineReducers } from 'redux'
 import { applyMiddleware, namespaced } from 'redux-subspace'
 import wormhole from 'redux-subspace-wormhole'
 import { exampleReducer } from '@ioof/example-micro-frontend'
-import { account } from './reducers
+import { account } from './reducers'
 
 const reducer = combineReducers({
   account,

@@ -8,7 +8,7 @@ export default (
       <ListItem>1 development team</ListItem>
     </List>
     <Notes>
-      Angular 1 Monolith
+      Angular 1 Monolith<br />
     </Notes>
   </Slide>
 )

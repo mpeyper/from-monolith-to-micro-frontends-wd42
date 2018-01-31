@@ -7,9 +7,9 @@ export default (
       Explosion of Micro-Frontends
     </Heading>
     <Notes>
-      Other teams started to see the benefits
-      More and more began popping up
-      rocket-ui integrates Investments micro-frontend
+      Other teams started to see the benefits<br />
+      More and more began popping up<br />
+      rocket-ui integrates Investments micro-frontend<br />
     </Notes>
   </Slide>
 )

@@ -8,9 +8,9 @@ export default (
       <ListItem>5 development teams</ListItem>
     </List>
     <Notes>
-      Angular 1 Parent App
-      Some Angular 1 Micro-Frontends
-      Mostly React/Redux Micro-Frontends
+      Angular 1 Parent App<br />
+      Some Angular 1 Micro-Frontends<br />
+      Mostly React/Redux Micro-Frontends<br />
     </Notes>
   </Slide>
 )

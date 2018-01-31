@@ -6,11 +6,11 @@ export default (
   <Slide>
     <Image src={imageSrc} />
     <Notes>
-      How many frontends?
-      2015
-      Innovation Day
-      Team in Melbourne
-      Leveraged exisiting microservice APIs
+      How many frontends?<br />
+      2015<br />
+      Innovation Day<br />
+      Team in Melbourne<br />
+      Leveraged exisiting microservice APIs<br />
     </Notes>
   </Slide>
 )

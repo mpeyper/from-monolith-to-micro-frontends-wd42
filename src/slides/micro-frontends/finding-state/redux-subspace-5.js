@@ -1,5 +1,5 @@
 import React from 'react'
-import { Slide, Heading, Text, CodePane } from 'spectacle'
+import { Slide, Heading, Text, CodePane, Notes } from 'spectacle'
 import { reducer } from '../examples/redux-subspace'
 
 export default (
@@ -9,5 +9,9 @@ export default (
     </Heading>
     <Text textAlign="left" textFont="primary" textColor="quartenary">In micro-frontend</Text>
     <CodePane textSize={18} lang="js" source={reducer} />
+    <Notes>
+      No need to namespace actions anymore
+      Reducer doesn't need to change
+    </Notes>
   </Slide>
 )

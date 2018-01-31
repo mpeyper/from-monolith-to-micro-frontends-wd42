@@ -6,7 +6,7 @@ export default (
   <Slide>
     <Image src={imageSrc} />
     <Notes>
-      How many frontends?
+      How many frontends?<br />
     </Notes>
   </Slide>
 )

@@ -1,5 +1,5 @@
 import React from 'react'
-import { Slide, Heading, CodePane } from 'spectacle'
+import { Slide, Heading, CodePane, Notes } from 'spectacle'
 import { artifactLoader } from './examples/lazy-loading'
 
 export default (
@@ -8,5 +8,9 @@ export default (
       Lazy Loading
     </Heading>
     <CodePane textSize={18} lang="js" source={artifactLoader} />
+    <Notes>
+      Solves loading times<br />
+      Adds UX concerns<br />
+    </Notes>
   </Slide>
 )
